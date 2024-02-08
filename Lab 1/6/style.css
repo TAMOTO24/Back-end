@@ -1,0 +1,15 @@
+td {
+    padding: 20px;
+}
+table, td {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+}
+
+.square {
+    border: 3px dotted black;
+    position: absolute;
+    background-color: red;
+}
