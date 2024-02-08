@@ -9,32 +9,15 @@
     <?php
         $value = 8;
 
-        if ($value == 1){
-            echo "January";
-        }else if ($value == 2){
-            echo "February";
-        }else if ($value == 3){
-            echo "March";
-        }else if ($value == 4){
-            echo "April";
-        }else if ($value == 5){
-            echo "May";
-        }else if ($value == 6){
-            echo "June";
-        }else if ($value == 7){
-            echo "July";
-        }else if ($value == 8){
-            echo "August";
-        }else if ($value == 9){
-            echo "September";
-        }else if ($value == 10){
-            echo "October";
-        }else if ($value == 11){
-            echo "November";
-        }else if ($value == 12){
-            echo "December";
+        if ($value == 1 || $value == 2 || $value == 12) {
+            echo "Winter";
+        }else if($value >= 3 && $value <= 5){
+            echo "Spring";
+        }else if($value >= 6 && $value <= 8){
+            echo "Summer";
+        }else if($value >= 9 && $value <= 11){
+            echo "Autumn";
         }
-
     ?>
 </body>
 </html>
