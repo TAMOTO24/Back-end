@@ -1,0 +1,13 @@
+div {
+    display: flex;
+}
+form{
+    width: 300px;
+}
+input{
+    height: 20px;
+}
+
+label {
+    flex-grow: 1;
+}

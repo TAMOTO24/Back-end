@@ -1,0 +1,39 @@
+form{
+    width: 500px;
+}
+div{
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px; 
+}
+.block{
+    display: flex;
+    align-items: baseline;
+}
+
+label {
+  width: 150px;
+}
+label[for="oneopt"], label[for="twoopt"]{
+    width: 60px;
+}
+.radioBox{
+    align-items: flex-start;
+}
+
+.radio{
+    display: flex;
+    flex-direction: column;
+}
+input, p{
+  flex: 1;
+}
+p{
+    margin: 0px;
+}
+div p:first-child{
+    color:darkgrey;
+}
+img{
+    width: 50%;
+}
